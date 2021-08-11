@@ -12,3 +12,20 @@
 
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.2.2/g' package/base-files/files/bin/config_generate
+
+#添加额外非必须软件包
+#网络测试
+git clone https://github.com/sirpdboy/NetSpeedTest package/NetSpeedTest
+
+
+
+#第三方主题
+git clone https://github.com/sirpdboy/luci-theme-opentopd package/luci-theme-opentopd
+
+
+#OpenClash小猫咪
+git clone https://github.com/vernesong/OpenClash.git package/OpenClash
+
+#添加smartdns
+git clone https://github.com/pymumu/openwrt-smartdns package/smartdns
+git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
