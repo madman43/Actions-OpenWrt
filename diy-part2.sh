@@ -13,6 +13,9 @@
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.2.2/g' package/base-files/files/bin/config_generate
 
+# 第三方软件源
+git clone https://github.com/siropboy/sirpdboy-package package/sirpdboy-package
+
 #添加额外非必须软件包
 #网络测试
 git clone https://github.com/sirpdboy/NetSpeedTest package/NetSpeedTest
