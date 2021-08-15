@@ -29,6 +29,10 @@ git clone https://github.com/sirpdboy/luci-theme-opentopd package/luci-theme-ope
 #OpenClash小猫咪
 git clone https://github.com/vernesong/OpenClash.git package/OpenClash
 
+
+#多合一通知插件
+git clone https://github.com/zzsj0928/luci-app-pushbot package/luci-app-pushbot
+
 #添加smartdns
 #git clone https://github.com/pymumu/openwrt-smartdns package/smartdns
 #git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
