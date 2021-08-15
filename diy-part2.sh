@@ -30,5 +30,5 @@ git clone https://github.com/sirpdboy/luci-theme-opentopd package/luci-theme-ope
 git clone https://github.com/vernesong/OpenClash.git package/OpenClash
 
 #添加smartdns
-git clone https://github.com/pymumu/openwrt-smartdns package/smartdns
-git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
+#git clone https://github.com/pymumu/openwrt-smartdns package/smartdns
+#git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
