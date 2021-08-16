@@ -18,7 +18,7 @@ git clone https://github.com/siropboy/sirpdboy-package package/sirpdboy-package
 
 #添加额外非必须软件包
 #网络测试
-git clone https://github.com/sirpdboy/NetSpeedTest package/NetSpeedTest
+#git clone https://github.com/sirpdboy/NetSpeedTest package/NetSpeedTest
 
 
 
@@ -28,6 +28,9 @@ git clone https://github.com/sirpdboy/luci-theme-opentopd package/luci-theme-ope
 
 #OpenClash小猫咪
 git clone https://github.com/vernesong/OpenClash.git package/OpenClash
+
+#应用过滤
+git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 
 
 #多合一通知插件
