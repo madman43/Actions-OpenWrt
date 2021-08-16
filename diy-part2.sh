@@ -32,6 +32,8 @@ git clone https://github.com/vernesong/OpenClash.git package/OpenClash
 #应用过滤
 git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 
+#helloworld
+git clone https://github.com/fw876/helloworld.git package/helloworld
 
 #多合一通知插件
 git clone https://github.com/zzsj0928/luci-app-pushbot package/luci-app-pushbot
