@@ -15,7 +15,30 @@
 
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-#echo 'src-git opentopd  https://github.com/sirpdboy/sirpdboy-package' >>feeds.conf.default
+echo 'src-git opentopd  https://github.com/sirpdboy/sirpdboy-package' >>feeds.conf.default
 echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
-#git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
+
+
+
+
+
+
+#添加额外非必须软件包
+#网络测试
+#git clone https://github.com/sirpdboy/NetSpeedTest package/lean/NetSpeedTest
+
+
+
+
+
+
+#应用过滤
+git clone https://github.com/destan19/OpenAppFilter.git package/lean/OpenAppFilter
+
+
+
+#多合一通知插件
+git clone https://github.com/zzsj0928/luci-app-pushbot package/lean/luci-app-pushbot
+
+
