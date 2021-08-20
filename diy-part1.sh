@@ -38,7 +38,5 @@ git clone https://github.com/destan19/OpenAppFilter.git package/lean/OpenAppFilt
 
 
 
-#多合一通知插件
-git clone https://github.com/zzsj0928/luci-app-pushbot package/lean/luci-app-pushbot
 
 
