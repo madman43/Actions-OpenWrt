@@ -26,7 +26,7 @@ echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
 
 #添加额外非必须软件包
 #网络测试
-#git clone https://github.com/sirpdboy/NetSpeedTest package/lean/NetSpeedTest
+git clone https://github.com/sirpdboy/NetSpeedTest package/lean/NetSpeedTest
 
 
 
